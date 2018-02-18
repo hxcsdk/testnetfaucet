@@ -1,3 +1,4 @@
+q
 /* inconsolata-regular - latin */
 @font-face {
   font-family: 'Inconsolata';
@@ -42,7 +43,7 @@ h4 span {
 
 body {
 	padding-top: 70px;
-	background-color: #132f4b;
+	background-color: #004440;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #FFFFFF;
 }
@@ -52,7 +53,7 @@ body {
 }
 
 .navbar-default {
-    background-color: #0C1E3E;
+    background-color: #002020;
     border: none;
     border-radius: 0;
     margin: auto;
@@ -72,11 +73,11 @@ height: 70px;
 }
 
 .btn-primary{
-	background: #2972ff;
-	background: -webkit-linear-gradient(#699bff, #2972ff);
-	background: -o-linear-gradient(#699bff, #2972ff);
-	background: -moz-linear-gradient(#699bff, #2972ff);
-	background: linear-gradient(#699bff, #2972ff);
+	background: #008c80;
+	background: -webkit-linear-gradient(#008c80, #006d65);
+	background: -o-linear-gradient(#008c80, #006d65);
+	background: -moz-linear-gradient(#008c80, #006d65);
+	background: linear-gradient(#008c80, #006d65);
 	padding: 16px 28px;
 	font-size: 1.73rem;
 	border: 0;

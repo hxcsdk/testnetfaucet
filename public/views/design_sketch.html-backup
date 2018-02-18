@@ -9,7 +9,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Testnet Faucet for HX">
     <meta name="author" content="Hx Developer">
-    <link rel="icon" href="./images/favicon/hn-ico.black.png">
+    <link rel="icon" href="./images/favicon/favicon.ico">
     <title>HX Testnet Faucet</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
@@ -42,6 +42,7 @@
           </button>
           <a class="navbar-brand" href="#">
 
+		<img src="/images/hn-logo.png">
 <!--
             <svg class="svg-logo">
               <use xlink:href="/images/sprites.svg#svg-HX-logo" />
@@ -54,9 +55,7 @@
     <div class="container">
       <br />
       <br />
-<div class="row">
-        <center><img src="/images/hn-logo.png"></center>
-</div>
+      <br />
       <h1>HX Testnet Faucet</h1>
       <!-- INTRODUCTION TEXT -->
       <div class="row">
@@ -96,11 +95,10 @@
       </div><!-- /row -->
       <div class="row">
         <div class="col-md-12">
-          <p class="text-center">Please send any unused Testnet coins back to the faucet wallet: {{.Address}}<br><br>
+          <p class="text-center">Please send any unused Testnet coins back to the faucet wallet: {{.Address}}<br>
           Balance left in default account: {{.Balance}} HX<br>
-          Have sent {{.SentToday}} HX today. Daily limit {{.DailyLimit}} DCR.<br><br>
-          The source code is available on:<br><br>
-	 <a href="https://github.com/hybrid.network/testnetfaucet"><img src="images/github.png" width="75" height="75"></a></p>
+          Have sent {{.SentToday}} HX today. Daily limit {{.DailyLimit}} DCR.<br>
+          The source code is available on <a href="https://github.com/hybrid.network/testnetfaucet">GitHub</a>.</p>
         </div>
       </div>
     </div> <!-- /container -->
