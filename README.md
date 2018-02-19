@@ -1,23 +1,23 @@
 # testnetfaucet
 
 testnetfaucet is a simple web app that sends a configurable amount of testnet
-Decred via an rpcclient connection to an instance of dcrwallet.
+HX via an rpcclient connection to an instance of hxwallet.
 
 ## Installation
 
 ## Developing
 
 ``` bash
-git clone https://github.com/decred/testnetfaucet.git
+git clone https://github.com/hybridnetwork/testnetfaucet.git
 cd testnetfaucet
 dep ensure
 go install
 ```
 
-Start dcrwallet with the following options.  
+Start hxwallet with the following options.  
 
 ```bash
-dcrwallet --testnet -u USER -P PASSWORD --rpclisten=127.0.0.1:19111 --rpccert=$HOME/.dcrwallet/rpc.cert
+hxwallet --testnet -u USER -P PASSWORD --rpclisten=127.0.0.1:19111 --rpccert=$HOME/.hxwallet/rpc.cert
 ```
 
 Configure and start testnetfaucet
@@ -32,15 +32,10 @@ testnetfaucet
 
 If you have any further questions you can find us at:
 
-- irc.freenode.net (channel #decred)
-- [webchat](https://webchat.freenode.net/?channels=decred)
-- forum.decred.org
-- decred.slack.com
-
 ## Issue Tracker
 
 The
-[integrated github issue tracker](https://github.com/decred/testnetfaucet/issues)
+[integrated github issue tracker](https://github.com/hybridnetwork/testnetfaucet/issues)
 is used for this project.
 
 ## License
