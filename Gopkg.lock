@@ -42,13 +42,19 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/decred/base58"
-  packages = ["."]
-  revision = "b3520e187fa8ebe65eb74245408cf4b83e6a65d3"
+  name = "github.com/hybridnetwork/bliss"
+  packages = [
+    ".",
+    "huffman",
+    "params",
+    "poly",
+    "sampler"
+  ]
+  revision = "57f23f8b21e389f93dec6ab8cf1256139cf76b8f"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/decred/dcrd"
+  branch = "testnet1"
+  name = "github.com/hybridnetwork/hxd"
   packages = [
     "blockchain/stake",
     "blockchain/stake/internal/dbnamespace",
@@ -57,17 +63,32 @@
     "chaincfg",
     "chaincfg/chainec",
     "chaincfg/chainhash",
+    "crypto",
+    "crypto/bliss",
     "database",
     "dcrec/edwards",
     "dcrec/secp256k1",
     "dcrec/secp256k1/schnorr",
     "dcrjson",
-    "dcrutil",
-    "rpcclient",
     "txscript",
     "wire"
   ]
-  revision = "e14519348390e77af99d32480fb410d49b05043f"
+  revision = "0fc1aacf0126576ea7a939f856ba20a480f480af"
+
+[[projects]]
+  branch = "dev-v0.0.1"
+  name = "github.com/hybridnetwork/hxrpcclient"
+  packages = ["."]
+  revision = "2c4485f45b98e19cbcd8de5f17cf5753a6777aa0"
+
+[[projects]]
+  branch = "dev-v0.0.1"
+  name = "github.com/hybridnetwork/hxutil"
+  packages = [
+    ".",
+    "base58"
+  ]
+  revision = "da30ad4f658407f91e60756aebdfb69849311b5b"
 
 [[projects]]
   branch = "master"
@@ -78,12 +99,15 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
-  packages = ["ripemd160"]
-  revision = "76eec36fa14229c4b25bb894c2d0e591527af429"
+  packages = [
+    "ripemd160",
+    "sha3"
+  ]
+  revision = "650f4a345ab4e5b245a3034b110ebc7299e68186"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "85b5b976a7e07d3e61151d6afaa04b89fb3289ebdcab48f89e6f36ea078222f3"
+  inputs-digest = "484fc9f686e4b8504e030372439ec522f185bc8e8aeb5faa9d451424fad78255"
   solver-name = "gps-cdcl"
   solver-version = 1

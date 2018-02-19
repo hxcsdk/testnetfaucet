@@ -18,8 +18,8 @@ import (
 
 	"net"
 
-	"github.com/decred/dcrd/dcrutil"
-	"github.com/decred/dcrd/rpcclient"
+	dcrutil "github.com/hybridnetwork/hxutil"
+	rpcclient "github.com/hybridnetwork/hxrpcclient"
 )
 
 var (

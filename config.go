@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	flags "github.com/btcsuite/go-flags"
-	"github.com/decred/dcrd/dcrutil"
+	dcrutil "github.com/hybridnetwork/hxutil"
 )
 
 const (

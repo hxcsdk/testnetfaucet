@@ -1,12 +1,12 @@
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/decred/dcrd"
+  branch = "testnet1"
+  name = "github.com/hybridnetwork/hxd"
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/decred/dcrrpcclient"
+  branch = "dev-v0.0.1"
+  name = "github.com/hybridnetwork/hxrpcclient"
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/decred/dcrutil"
+  branch = "dev-v0.0.1"
+  name = "github.com/hybridnetwork/hxutil"

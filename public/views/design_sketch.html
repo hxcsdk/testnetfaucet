@@ -9,7 +9,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Testnet Faucet for HX">
     <meta name="author" content="Hx Developer">
-    <link rel="icon" href="./images/favicon/hn-ico.black.png">
+    <link rel="icon" href="./images/favicon/hn-ico-black.png">
     <title>HX Testnet Faucet</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
@@ -78,7 +78,7 @@
           {{end}}
           {{if .Success}}
           <div class="alert alert-success">
-            <p>Success! Transaction {{.Success}} has been sent.  You may see it on <a href="https://testnet.dcrdata.org/explorer/tx/{{.Success}}">DCRData</a> or <a href="https://testnet.decred.org/tx/{{.Success}}">Insight</a>.</p>
+            <p>Success! Transaction {{.Success}} has been sent. We don't have a block explorer setup at this time but stay tuned for it!</p>
           </div>
           {{end}}
 	        <!-- FORM BEGINS HERE -->
