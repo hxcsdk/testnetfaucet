@@ -30,8 +30,8 @@ const (
 	defaultListen                = ":8000"
 	defaultPublicPath            = "public"
 	defaultTemplatePath          = "views"
-	defaultWallertCert           = "~/.dcrwallet/rpc.cert"
-	defaultWithdrawalAmount      = 2
+	defaultWallertCert           = "~/.hxwallet/rpc.cert"
+	defaultWithdrawalAmount      = 5
 	defaultWithdrawalTimeSeconds = 30
 )
 
@@ -40,7 +40,7 @@ var (
 	defaultConfigFile    = filepath.Join(testnetFaucetHomeDir, defaultConfigFilename)
 	defaultDataDir       = filepath.Join(testnetFaucetHomeDir, defaultDataDirname)
 	defaultLogDir        = filepath.Join(testnetFaucetHomeDir, defaultLogDirname)
-	defaultWalletAddress = "TsWjioPrP8E1TuTMmTrVMM2BA4iPrjQXBpR"
+	defaultWalletAddress = "Tsg4k53U5YZk2KVoBf7jg2gWhwa4sfJbLKm"
 )
 
 // runServiceCommand is only set to a real function on Windows.  It is used
