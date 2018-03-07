@@ -20,14 +20,14 @@ import (
 )
 
 const (
-	defaultBaseURL               = "http://127.0.0.1:8000"
+	defaultBaseURL               = "http://faucet1.testnet.hybrid.network:80"
 	defaultConfigFilename        = "testnetfaucet.conf"
 	defaultDataDirname           = "data"
 	defaultLogLevel              = "info"
 	defaultLogDirname            = "logs"
 	defaultLogFilename           = "testnetfaucet.log"
 	defaultCookieSecure          = false
-	defaultListen                = ":8000"
+	defaultListen                = ":80"
 	defaultPublicPath            = "public"
 	defaultTemplatePath          = "views"
 	defaultWallertCert           = "~/.hxwallet/rpc.cert"
